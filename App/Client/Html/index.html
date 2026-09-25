@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pacheco  Compra y venta certificada de vehículos usados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand"><span class="dot"></span>Pacheco</div>
+    <div class="navlinks">
+      <a href="#certificacion">Certificación</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#vender">Vender mi carro</a>
+    </div>
+    <a href="#" class="btn btn-buy whatsapp-link" data-msg="Hola. Vengo de la landing page y estoy buscando un carro usado certificado. ¿Me pueden compartir el catálogo disponible?" style="padding:10px 18px; font-size:12.5px;">Contactar</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Gran Caracas · Estado Miranda</div>
+      <h1>Compra con <span class="accent">seguridad</span>. Vende <span class="accent">hoy mismo</span>.</h1>
+      <p class="lede">Sin vicios ocultos ni sorpresas a los tres días. Cada vehículo pasa por revisión y reparación de un mecánico con 40 años de experiencia antes de llegar a tus manos — o te lo compramos directo, rápido y sin vueltas.</p>
+      <div class="cta-row">
+        <a href="#catalogo" class="btn btn-buy">Quiero comprar un carro seguro</a>
+        <a href="#vender" class="btn btn-sell">Quiero vender mi carro ya</a>
+      </div>
+    </div>
+    <div class="stamp">
+      <div class="stamp-text">Revisado y aprobado<b>40 AÑOS</b>de experiencia mecánica</div>
+    </div>
+  </div>
+</section>
+
+<div class="hazard"></div>
+
+<section id="certificacion">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Sello de certificación mecánica</div>
+      <h2>Un carro usado no debería ser una apuesta</h2>
+      <p>No compramos, lavamos y revendemos. Cada vehículo del catálogo pasa por diagnóstico, reparación real y aprobación antes de salir a la venta.</p>
+    </div>
+    <div class="checklist">
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="tag">PASO 01</div>
+        <h3>Diagnóstico riguroso</h3>
+        <p>Motor, tren delantero y sistema eléctrico evaluados a fondo antes de tocar el resto del proceso.</p>
+      </div>
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="tag">PASO 02</div>
+        <h3>Reparación real</h3>
+        <p>Si el carro necesita repuestos, se colocan. No se disimula una falla: se resuelve, y lo dejamos operable.</p>
+      </div>
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="tag">PASO 03</div>
+        <h3>Transparencia total</h3>
+        <p>Te contamos qué se le hizo al carro. Nada de sorpresas después de la compra.</p>
+      </div>
+    </div>
+    <div class="quote-block">
+      <b>Por qué confiar:</b> el negocio no es comprar barato y vender rápido sin revisar. Nuestro mecánico, con 40 años de oficio, es quien decide si un carro está listo para salir — y lo deja operable antes de ofrecerlo.
+    </div>
+  </div>
+</section>
+
+<hr class="hairline">
+
+<section id="catalogo">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Showroom digital</div>
+      <h2>Catálogo certificado</h2>
+      <p>Vehículos listos para entrega inmediata, o en camino desde el taller.</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="disponibles">Disponibles ahora</button>
+      <button class="tab-btn" data-tab="taller">En fase de optimización</button>
+    </div>
+
+    <div class="tabpanel active" id="tab-disponibles">
+      <div class="cards" id="available-cars" aria-live="polite"></div>
+    </div>
+
+    <div class="tabpanel" id="tab-taller">
+      <div class="cards" id="workshop-cars" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline">
+
+<section id="vender" class="sell">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="--c:var(--taillight);">Vende sin complicaciones</div>
+      <h2>¿Necesitas salir de tu carro rápido?</h2>
+      <p>Ya sea por necesidad o porque quieres cambiar de vehículo, nosotros te lo quitamos de las manos. No es un favor: es nuestro negocio, y te pagamos por eso.</p>
+    </div>
+    <div class="steps">
+      <div class="ticket">
+        <div class="num">ORDEN 01</div>
+        <h3>Envías los datos</h3>
+        <p>Nos escribes por WhatsApp con la información básica de tu carro.</p>
+      </div>
+      <div class="ticket">
+        <div class="num">ORDEN 02</div>
+        <h3>Evaluación express</h3>
+        <p>Coordinamos la revisión técnica con nuestro mecánico de 40 años de experiencia.</p>
+      </div>
+      <div class="ticket">
+        <div class="num">ORDEN 03</div>
+        <h3>Trato cerrado</h3>
+        <p>Te hacemos una oferta justa según el estado real del vehículo y cerramos rápido.</p>
+      </div>
+    </div>
+    <div class="cta-row" style="margin-top:40px;">
+      <a href="#" class="btn btn-sell whatsapp-link" data-msg="Hola, ¿cómo están? Vi en su página que compran vehículos de forma rápida en Caracas/Miranda. Tengo un carro que quiero vender rápido. Me gustaría coordinar la revisión con su mecánico.">Hablar con un asesor para vender mi carro</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-cta">
+      <div>
+        <h2>¿Listo para comprar o vender con seguridad?</h2>
+        <p class="foot-note" style="margin-top:8px;">Respondemos por WhatsApp. Cuéntanos qué necesitas y coordinamos el resto.</p>
+      </div>
+      <a href="#" class="btn btn-buy whatsapp-link" data-msg="Hola. Vengo de la landing page y quiero más información.">Contactar por WhatsApp</a>
+    </div>
+    <div class="footer-grid">
+      <div class="brand"><span class="dot"></span>Pacheco</div>
+      <div class="foot-links">
+        <a href="#certificacion">Certificación</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#vender">Vender mi carro</a>
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+    </div>
+    <div class="credit mono">Gran Caracas · Estado Miranda — Compra y venta certificada de vehículos usados</div>
+  </div>
+</footer>
+
+<script src="index.js" defer></script>
+
+</body>
+</html>
