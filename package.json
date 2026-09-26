@@ -1,0 +1,22 @@
+{
+  "name": "pacheco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix App/Api run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamdreilysprog-cyber/Pacheco-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yamdreilysprog-cyber/Pacheco-/issues"
+  },
+  "homepage": "https://github.com/yamdreilysprog-cyber/Pacheco-#readme"
+}
